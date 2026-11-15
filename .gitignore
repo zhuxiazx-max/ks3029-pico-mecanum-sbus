@@ -1,0 +1,13 @@
+# Keyestudio tutorial download (lessons, libraries, MicroPython .uf2)
+Python/
+
+__pycache__/
+
+# Copies from the Pico and local files, not part of the project
+config.json
+lib/
+Test scripts/
+mecanumCar_v2.py
+pico_backup/
+log.bin
+log.csv

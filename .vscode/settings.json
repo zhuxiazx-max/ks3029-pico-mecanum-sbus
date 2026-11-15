@@ -1,0 +1,26 @@
+{
+    // MicroPico: upload only the robot firmware, not the Keyestudio tutorial files or backups.
+    "micropico.syncFolder": "",
+    "micropico.pyIgnore": [
+        "**/.picowgo",
+        "**/.micropico",
+        "**/.vscode",
+        "**/.gitignore",
+        "**/.git",
+        "**/Python",
+        "**/pico_backup",
+        "**/safe_main.py"
+    ],
+    "micropico.softResetAfterUpload": true,
+    "micropico.openOnStart": true,
+
+    // MicroPython type stubs, so imports like machine and rp2 are recognised.
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.analysis.typeshedPaths": ["~/.micropico-stubs/included"],
+    "python.analysis.extraPaths": ["~/.micropico-stubs/included"],
+    "python.analysis.exclude": ["Python/**", "pico_backup/**"]
+}
