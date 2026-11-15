@@ -57,13 +57,20 @@ Assisted mode currently drives like manual, and auto mode keeps the motors off.
 
 ## Install
 
-1. Flash MicroPython onto the Pico (hold BOOTSEL, plug in, copy the `.uf2`,
-   or use Thonny: Tools > Options > Interpreter > Install or update MicroPython).
-2. Copy these files to the Pico's root:
+The easiest way is [Thonny](https://thonny.org) (free, Windows / macOS /
+Linux), a Python editor that can flash MicroPython and copy files to the Pico.
+
+1. Flash MicroPython onto the Pico: hold BOOTSEL, plug in the USB cable, then
+   in Thonny go to Tools > Options > Interpreter > Install or update
+   MicroPython. (Or copy the `.uf2` from
+   [micropython.org](https://micropython.org/download/RPI_PICO/) onto the
+   RPI-RP2 drive.)
+2. In Thonny, select the interpreter "MicroPython (Raspberry Pi Pico)", press
+   Stop, open View > Files, and upload these files to the Pico's root:
    `main.py`, `drive.py`, `motors.py`, `sbus.py`, `leds.py`, `settings.py`,
    `bench.py`
-   (with Thonny's Files panel, `mpremote cp`, or VS Code + MicroPico).
-3. Reset the Pico. `main.py` starts `drive.py` at boot.
+   (or use `mpremote cp`, or VS Code + MicroPico).
+3. Reset the Pico (Ctrl+D in Thonny's Shell). `main.py` starts `drive.py` at boot.
 
 `config.json` is created on the Pico when you save a setting; it is not part
 of this repository.
