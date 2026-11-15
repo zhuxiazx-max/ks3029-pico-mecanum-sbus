@@ -62,11 +62,13 @@ Linux), a Python editor that can flash MicroPython and copy files to the Pico.
 
 1. Flash MicroPython onto the Pico: hold BOOTSEL, plug in the USB cable, then
    in Thonny go to Tools > Options > Interpreter > Install or update
-   MicroPython. (Or copy the `.uf2` from
-   [micropython.org](https://micropython.org/download/RPI_PICO/) onto the
-   RPI-RP2 drive.)
-2. In Thonny, select the interpreter "MicroPython (Raspberry Pi Pico)", press
-   Stop, open View > Files, and upload these files to the Pico's root:
+   MicroPython and choose target volume RPI-RP2, family RP2 (RP2040),
+   variant "Raspberry Pi • Pico / Pico H" (not Pico W or Pico 2). (Or copy
+   the `.uf2` from [micropython.org](https://micropython.org/download/RPI_PICO/)
+   onto the RPI-RP2 drive.)
+2. In Thonny, select the interpreter "MicroPython (RP2040)" (older versions:
+   "MicroPython (Raspberry Pi Pico)"), press Stop, open View > Files, and
+   upload these files to the Pico's root:
    `main.py`, `drive.py`, `motors.py`, `sbus.py`, `leds.py`, `settings.py`,
    `bench.py`
    (or use `mpremote cp`, or VS Code + MicroPico).
