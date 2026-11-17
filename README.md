@@ -38,6 +38,8 @@ RadioMaster radio and a FrSky XM+ receiver.
 | On-board WS2812 status LEDs (4) | GP7 |
 | Optional WS2812 strip (16 white + 14 red here) | GP3 |
 
+![Wiring of the LED strip on G3 (with a 330 Ω data resistor) and the SBUS receiver on G5](docs/wiring.jpg)
+
 Power the receiver from the robot's 5 V. The strip runs from the sensor
 shield's 5 V, which is rated about 200 mA, so the code caps it at 150 mA. For a
 brighter strip use a separate 5 V buck converter (common ground with the Pico).
