@@ -65,6 +65,30 @@ Set the receiver's failsafe to "no pulses" or "hold + failsafe flag"; the code
 disarms on the SBUS failsafe flag and when frames stop for 100 ms.
 Assisted mode currently drives like manual, and auto mode keeps the motors off.
 
+### Compatible receivers
+
+Any receiver with a normal (inverted) **SBUS** output works without code
+changes:
+
+- **Work as is:** FrSky receivers with an SBUS port (XM+, XM, R-XSR, X8R,
+  X4R-SB, Archer RS/R4/R6/R8), Futaba S.BUS receivers, and RadioMaster,
+  Jumper, BetaFPV and clones with an "SBUS" output.
+- **Work after a receiver setting:** ExpressLRS 3.x receivers with the serial
+  protocol set to **SBUS** (receiver Wi-Fi page or the ELRS Lua script; the
+  default CRSF does not work), and multi-protocol receivers set to SBUS output.
+- **Do not work without code changes:** FlySky iBUS, Spektrum DSM/SRXL, CRSF,
+  PPM and PWM-only receivers, and the extra "uninverted SBUS" pad some
+  receivers have (use their normal SBUS output instead).
+
+Whatever the receiver: channel order AETR, mode on CH6, arm on CH7, failsafe
+set to "no pulses" (or a receiver that sets the SBUS failsafe flag). Test it
+with the wheels up: switch the radio off, the LEDs must blink red and the
+wheels stop.
+
+The SBUS signal must be **3.3 V**: the Pico's pins are not 5 V tolerant. Almost
+all receivers are, even when powered from 5 V. If yours outputs 5 V, add a
+divider (1 kΩ in series, 2 kΩ to GND).
+
 ## Install
 
 The easiest way is [Thonny](https://thonny.org) (free, Windows / macOS /
