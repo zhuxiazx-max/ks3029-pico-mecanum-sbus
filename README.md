@@ -31,12 +31,12 @@ RadioMaster radio and a FrSky XM+ receiver.
 
 ## Hardware
 | ITEM NO. | PART NUMBER | DESCRIPTION | QTY. |  Link |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1 | KEYESTUDIO KS3029 | STEM Kit | 1 | https://s.click.aliexpress.com/e/_c4sfoTCt |
-| 2 | 3D print | Tesla Cybertruck car body | 1 |
-| 3 | 4x12 threadcutting screw | 4 x 12mm Thread cutting Screw | 4 |
-| 4 | FrSky XM+ | SBUS receiver | 1 |
-| 5 | Cell 18650 | Lithium-ion 18650 cell | 2 |
+| 2 | 3D print | Tesla Cybertruck car body | 1 | download |
+| 3 | 4x12 threadcutting screw | 4 x 12mm Thread cutting Screw | 4 | [Screws](https://s.click.aliexpress.com/e/_c3tJB8fL) |
+| 4 | FrSky XM+ | SBUS receiver | 1 | [SBUS receiver](https://s.click.aliexpress.com/e/_c3x3OvGD) |
+| 5 | Cell 18650 | Lithium-ion 18650 cell | 2 | [Batteries](https://de.aliexpress.com/item/1005012699594150.html?spm=a2g0o.productlist.main.7.3d9264c4Z03p9o&algo_pvid=d573643c-e5da-43c7-ab9c-812cde2d1faf&algo_exp_id=d573643c-e5da-43c7-ab9c-812cde2d1faf-6&pdp_ext_f=%7B%22order%22%3A%223%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21CHF%2126.40%213.35%21%21%21204.94%2125.98%21%400b88489f17953476699613695e0e8a%2112000059109744634%21sea%21CH%211653801957%21X%211%210%21n_tag%3A-29919%3Bd%3A6b705862%3Bm03_new_user%3A-29895%3BpisId%3A5000000221491402&curPageLogUid=eqEa4K1V9YI4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012699594150%7C_p_origin_prod%3A) |
 <img width="656" height="632" alt="image" src="https://github.com/user-attachments/assets/0f289523-b9b6-4c7c-a509-09dbaba2bc6a" />
 
 | Part | Pin |
