@@ -30,6 +30,7 @@ RadioMaster radio and a FrSky XM+ receiver.
   disarm, to analyze a drive without a cable.
 
 ## Hardware
+<img width="656" height="632" alt="image" src="https://github.com/user-attachments/assets/0f289523-b9b6-4c7c-a509-09dbaba2bc6a" />
 
 | Part | Pin |
 |---|---|
