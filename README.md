@@ -30,6 +30,13 @@ RadioMaster radio and a FrSky XM+ receiver.
   disarm, to analyze a drive without a cable.
 
 ## Hardware
+| ITEM NO. | PART NUMBER | DESCRIPTION | QTY. |  Link |
+| --- | --- | --- | --- |
+| 1 | KEYESTUDIO KS3029 | STEM Kit | 1 | https://s.click.aliexpress.com/e/_c4sfoTCt |
+| 2 | 3D print | Tesla Cybertruck car body | 1 |
+| 3 | 4x12 threadcutting screw | 4 x 12mm Thread cutting Screw | 4 |
+| 4 | FrSky XM+ | SBUS receiver | 1 |
+| 5 | Cell 18650 | Lithium-ion 18650 cell | 2 |
 <img width="656" height="632" alt="image" src="https://github.com/user-attachments/assets/0f289523-b9b6-4c7c-a509-09dbaba2bc6a" />
 
 | Part | Pin |
