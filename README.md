@@ -4,8 +4,15 @@ Drive the **Keyestudio KS3029 4WD mecanum robot** (Raspberry Pi Pico) with a
 real RC radio, like a drone: an SBUS receiver on the Pico, Mode 2 sticks,
 an arm switch, failsafe, and car-like steering.
 
-Click the image below to watch the full build tutorial on YouTube.
+
+
+https://github.com/user-attachments/assets/9a9e947b-20b6-47ca-ada9-f5ecac4d2bf8
+
+
+Click the link below to watch the full build tutorial on YouTube.
+
 https://youtu.be/sBFCQ7uvDys
+[![Watch the build video](https://img.youtube.com/vi/sBFCQ7uvDys/maxresdefault.jpg)](https://youtu.be/sBFCQ7uvDys)
 
 For the kit itself (parts, assembly, wiring, the original demo projects) see
 the official Keyestudio KS3029 documentation:
@@ -31,6 +38,11 @@ RadioMaster radio and a FrSky XM+ receiver.
   estimated current limit.
 - **Drive recorder**: the last 30 s of sticks and wheel commands are saved on
   disarm, to analyze a drive without a cable.
+
+
+
+https://github.com/user-attachments/assets/79657cd5-5a51-4dca-b52c-8d73f9e5c0e3
+
 
 ## Hardware
 | ITEM NO. | PART NUMBER | DESCRIPTION | QTY. |  Link |
