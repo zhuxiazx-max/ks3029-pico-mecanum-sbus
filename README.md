@@ -1,5 +1,7 @@
 # KS3029 Pico Mecanum SBUS
 
+![Mecanum Cybertruck parking between two Fiat 500s](docs/images/hero-parking.jpg)
+
 Drive the **Keyestudio KS3029 4WD mecanum robot** (Raspberry Pi Pico) with a
 real RC radio, like a drone: an SBUS receiver on the Pico, Mode 2 sticks,
 an arm switch, failsafe, and car-like steering.
@@ -9,9 +11,8 @@ an arm switch, failsafe, and car-like steering.
 https://github.com/user-attachments/assets/9a9e947b-20b6-47ca-ada9-f5ecac4d2bf8
 
 
-Click the link below to watch the full build tutorial on YouTube.
+Click the image below to watch the full build tutorial on YouTube.
 
-https://youtu.be/sBFCQ7uvDys
 [![Watch the build video](https://img.youtube.com/vi/sBFCQ7uvDys/maxresdefault.jpg)](https://youtu.be/sBFCQ7uvDys)
 
 For the kit itself (parts, assembly, wiring, the original demo projects) see
@@ -43,6 +44,35 @@ RadioMaster radio and a FrSky XM+ receiver.
 
 https://github.com/user-attachments/assets/79657cd5-5a51-4dca-b52c-8d73f9e5c0e3
 
+
+## Photos
+
+<p>
+<img src="docs/images/chassis-electronics.jpg" width="49%" alt="Pico, SBUS receiver and 18650 pack on the KS3029 chassis">
+<img src="docs/images/side-view.jpg" width="49%" alt="Low side view with green underglow">
+</p>
+<p>
+<img src="docs/images/front-lightbar.jpg" width="49%" alt="Front WS2812 light bar">
+<img src="docs/images/silhouette-lightbar.jpg" width="49%" alt="Light bar in silhouette">
+</p>
+<p>
+<img src="docs/images/hero-figures.jpg" height="300" alt="The car on the floor next to two figures">
+<img src="docs/images/radio-control.jpg" height="300" alt="Driving it with a Jumper T12 radio">
+</p>
+
+### The 3D-printed body
+
+The Cybertruck body is a two-colour print with tree supports (about 2 days 4 hours in the slicer, 1065 filament changes). The purge waste from all those colour changes is in the last photo.
+
+<p>
+<img src="docs/images/body-slicer.jpg" width="49%" alt="Body in the slicer with tree supports">
+<img src="docs/images/body-versions.jpg" width="49%" alt="Yellow and black versions of the body">
+</p>
+<p>
+<img src="docs/images/print-purge-waste.jpg" width="49%" alt="Bin full of purge waste from the colour changes">
+</p>
+
+*No, this is not a bowl of black-and-yellow noodles. It is what 1065 colour changes leave behind. If you print the body in two colours, put a big bin under the purge chute: your printer will poop a lot before it gives you a car.*
 
 ## Hardware
 | ITEM NO. | PART NUMBER | DESCRIPTION | QTY. |  Link |
